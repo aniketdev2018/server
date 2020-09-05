@@ -85,7 +85,7 @@ const Signup =()=>{
              
          
                 <div > 
-                  <button  className="  #42a5f5 grey lighten-2">
+                  <button  style={{height:"25px"}} className="  #42a5f5 grey lighten-2">
                 <a 
                   href="https://accounts.google.com/"
                       className="fagoogle social">
@@ -93,7 +93,7 @@ const Signup =()=>{
                                 Sign up with Google
                   </a>
                  </button>
-                 <button style={{marginLeft:"10px"}} className="  #42a5f5 grey lighten-2">
+                 <button style={{marginLeft:"10px", height:"25px"}}   className="  #42a5f5 grey lighten-2">
                   <a  href="https://www.facebook.com/"
                       className="facebook social">
                                 <FontAwesomeIcon icon={ faFacebook } size="1x" />
