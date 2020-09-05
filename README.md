@@ -1,4 +1,11 @@
 # server
-For running client folder or front end simply go to command prompt and run "npm start" and hit enter and localhost:3000 will run on chrome.
+For running client folder or front end  open a comamand prompt rediret it to desire folder like client folder then type follwoing command -
 
-for running backend open cmd and type "nodemon app" hit enter you will see localhost:5000 will bw running on chrome.
+npm i          // for installing node_modules
+npm start     // then localhost:3000 will open
+
+
+for running backend folder open comamand prompt rediret it to desire folder like backend  folder then type follwoing command -
+nodemon app
+
+
