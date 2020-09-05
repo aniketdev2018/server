@@ -83,21 +83,23 @@ const Signup =()=>{
                   <h4>Create your account</h4>
                 <p>Learn ipsum door sit some text</p>
              
-        
-                <div style={{borderBottom: "1px solid rgb(8,93,252)"}}> 
+         
+                <div > 
+                  <button  className="  #42a5f5 grey lighten-2">
                 <a 
                   href="https://accounts.google.com/"
                       className="fagoogle social">
                                 <FontAwesomeIcon style={{marginLeft:"10px ",}}icon={faGoogle } size="1x" />
                                 Sign up with Google
                   </a>
-                 
+                 </button>
+                 <button style={{marginLeft:"10px"}} className="  #42a5f5 grey lighten-2">
                   <a  href="https://www.facebook.com/"
                       className="facebook social">
-                                <FontAwesomeIcon style={{marginLeft:"10px"}}icon={ faFacebook } size="1x" />
+                                <FontAwesomeIcon icon={ faFacebook } size="1x" />
                                  Sign up with facebook
                   </a>
-                   
+                   </button>
                  
                   
                </div>
@@ -131,7 +133,7 @@ const Signup =()=>{
                         </label>
                   </form>
                    <p>
-                     By clicking Sign Up, you agree to our Terms of Use and our Privacy Police.
+                     By clicking Sign Up, you agree to our <a href="#">Terms of Use</a> and Our <a href="#">Privacy Police.</a>
                    </p>
                   <button  style={{width:"280px"}} className="btn waves-effect waves-light  #42a5f5 blue darken-1" 
                   onClick={()=>PostData()} 
