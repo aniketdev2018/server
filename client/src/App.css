@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');*/
+
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+}
+
+a{
+  color: black !important;
+}
+
+.mycard{
+  margin-top:30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+  margin:10px auto;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus{
+  border-bottom: 1px solid rgb(8,93,252) !important;
+  box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+}
+
+.input-field input[type=password]:focus{
+  border-bottom: 1px solid rgb(8,93,252) !important;
+  box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+}
+
+.item{
+  width: 30%;
+  border-bottom: 30px solid #0000 !important;
+  
+}
+
+.home-card{
+ /* width: 50%;*/
+  max-width: 600px;
+  height: max-content;
+  margin: 56px auto;
+}
+
+#toast-container{
+  top: 30px!important;
+  right: 20px !important;
+  left: auto !important;
+
+}
+.material-icons:hover{
+  cursor: pointer;
+}
+
+/*.font{
+  font-family: 'Caveat', cursive;
+}*/
+
